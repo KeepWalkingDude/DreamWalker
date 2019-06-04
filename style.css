@@ -1,19 +1,39 @@
-body {
-	background: blue
+h1 {
+        color: blue;
+    background-color: #80ffff;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-shadow: 5px 2px 5px #0FCFFF;
+ /*   color: blue;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0, .1);*/
+    /*border: 3px dashed rgb(0, 0, 0, .2);*/
+    /*border needs to have
+	border-color: black;
+	border-width:; 5px;
+	border-style: solid; solid, dashed*/
 }
 
-h1 {
-	color: yellow
-	center
+body {
+    background:  #ccffff;
+    /*background:  lightblue *//*#e6ffff*/;
+    /* the color here is a soft purple with blue*/
+    /*
+    https://www.w3schools.com/css/css_link.asp
+background: url(https://www.princeton.edu/sites/default/files/styles/half_1x/public/images/2018/01/clouds-19.jpg?itok=_4hV-QUI);
+background-repeat: no-repeat; /* comando para nao repetir a imagem
+background-size: cover; /* extende a imagem para cobrir o fundo */
 }
+
 
 p {
-	color: white
+	color: black
 }
 ol {
-	color: white
+	color:black
 }
 
 ul {
-	color: white
+	color: black
 }
